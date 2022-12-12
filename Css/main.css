@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Global Selectors */
+a{
+    text-decoration: none;
+    display: block;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+}
+.f-content{
+    margin: 100px auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.f-content .f-info{
+    width: 58%;
+    float: left;
+    padding: 15px;
+}
+.f-content .f-info h1{
+    font-size: 70px;
+    color: #1877f2;
+}
+.f-content .f-info p{
+    font-size: 28px;
+    line-height: 1.4;
+}
+.f-content .f-form{
+    width: 35%;
+    float: right;
+}
+.f-form form{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px 1px #d6d6d6;
+    margin-bottom: 20px;
+}
+.f-form form input{
+    width: 100%;
+    border-radius: 6px;
+    padding: 5px 8px;
+    height: 50px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    border: 0;
+    outline: 1px solid #bebebe;
+}
+.f-form form input:focus{
+    outline: 1px solid #1877f2;
+    box-shadow: 0 0 3px #1179ff;
+}
+.f-form form input::placeholder{
+    font-size: 17px;
+    color: #b1b1b1;
+
+}
+.f-form form .one{
+    width: 100%;
+    background-color: #1877f2;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 6px;
+    font-size: 21px;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+}
+.f-form form .one:hover{
+    background-color: #1971e3;
+}
+.f-form form .two{
+    font-size: 14px;
+    color: #1877f2;
+    margin-bottom: 20px;
+}
+.f-form form hr{
+    display: block;
+    border: 0;
+    height: 1px;
+    background-color: #dadada;
+    margin-bottom: 15px;
+}
+.f-form form .three{
+    width: fit-content;
+    display: inline-block;
+    background-color: #42b72a;
+    color: #fff;
+    padding: 1px 20px;
+    line-height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.2s ease-in;
+}
+.f-form form .three:hover{
+    background-color: #3da928;
+}
+.f-form p{
+    font-size: 14px;
+    text-align: center;
+}
+.f-form p a{
+    color: #000;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+.f-form p a:hover{
+    border-bottom: 1px solid #000;
+}
+
